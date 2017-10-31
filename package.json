@@ -1,0 +1,17 @@
+{
+  "name": "speech_to_text_remote",
+  "version": "1.0.0",
+  "description": "Read a audio file and recognizes first 10 seconds",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-rebuild"
+  },
+  "author": "Syed Umair",
+  "license": "MIT",
+  "dependencies": {
+    "electron-rebuild": "^1.6.0",
+    "@google-cloud/speech": "^0.10.3",
+    "electron": "1.7.9"
+  }
+}
