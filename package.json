@@ -12,6 +12,6 @@
   "dependencies": {
     "electron-rebuild": "^1.6.0",
     "@google-cloud/speech": "^0.10.3",
-    "electron": "1.7.9"
+    "electron": "15.5.5"
   }
 }
